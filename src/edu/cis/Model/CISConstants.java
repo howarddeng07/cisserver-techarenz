@@ -2,7 +2,6 @@ package edu.cis.Model;
 
 public class CISConstants
 {
-    //return strings
     public static final String DUP_ORDER_ERR = "Error: meal/drink already ordered by this user.";
     public static final String ORDER_INVALID_ERR = "Error: order doesn't exist.";
     public static final String INVALID_MENU_ITEM_ERR = "Error: there is no menu item for that name.";
@@ -29,14 +28,7 @@ public class CISConstants
     public static final String USER_ID_PARAM = "userID";
     public static final String DESC_PARAM = "description";
 
-    //Commands
-    //create user
-    //place order
-    //delete order
-    //get user cart
-    //add menu item
-    //delete menu item
-    //get full menu
+
     public static final String PING = "ping";
     public static final String CREATE_USER = "createUser";
     public static final String PLACE_ORDER = "placeOrder";
@@ -49,7 +41,6 @@ public class CISConstants
     public static final String GET_MENU = "getMenu";
     public static final String GET_USER = "getUser";
 
-    //Errors
     public static final String PORT_UNAVAIL = "is not available, likely because \nit's already being used by another " +
             "Java program running. \nClose all your server windows and try again.";
 }
